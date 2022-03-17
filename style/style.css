@@ -11,5 +11,10 @@
     color:white;
     
 }
-
-
+.jumbo{
+    background-image: url(../img/jumbo-bg.png);
+    height: 600px;
+    background-position: top;
+    
+    
+}
