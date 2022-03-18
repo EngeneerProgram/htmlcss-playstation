@@ -1,5 +1,5 @@
-img{
-    max-width: 280px;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 :root{
     --btnjumbo:rgba(205, 61, 15, 1);
@@ -25,7 +25,8 @@ img{
 }
 
 
-.col > a{
+
+.jumbo_button{
     border-radius: 50px;
     vertical-align: middle;
     text-align: center;
@@ -53,6 +54,7 @@ a{
     border-radius: 10%;
     cursor:pointer;
     transition: 1s;
+    
 }
 .active{
     border:4px solid rgba(14, 122, 208, 1);
@@ -67,3 +69,34 @@ transform: translatey(-33px);
     margin-right:50px;
     margin-left:50px;
 }
+
+.container{
+    margin-top:100px;
+    
+}
+
+.play{
+    margin:-2px;
+    letter-spacing: 1px;
+    color:rgba(20, 125, 210, 1);
+}
+
+.container > p{
+    color:rgba(118, 118, 118, 1);
+}
+
+
+.col{
+    overflow: hidden;
+}
+.button_play{
+    border-radius: 50px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(45, 100, 230, 1);
+    
+}
+a{
+    color:white;
+}
+
