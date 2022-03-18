@@ -86,16 +86,14 @@ transform: translatey(-33px);
 }
 
 
-.col{
-    overflow: hidden;
-}
+
 .button_play{
     border-radius: 50px;
-    
+    left:280px;
     text-align: center;
     background-color: rgba(45, 100, 230, 1);
     position:Relative;
-    left:150px;
+    
 }
 a{
     color:white;
