@@ -14,7 +14,7 @@ img{
 }
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
-    height: 600px;
+    height: 620px;
     background-position: top;
     
     
@@ -52,15 +52,18 @@ a{
 .photo_game{
     border-radius: 10%;
     cursor:pointer;
-    
+    transition: 1s;
 }
-
-.photo_game:active{
-    border: thick double rgba(14, 122, 208, 1);
-    
+.active{
+    border:4px solid rgba(14, 122, 208, 1);
+    padding:2px;
 }
 
 .photo_game:hover{
-transform: translateY(-20px);
-transition: 2s;
+
+transform: translatey(-33px);
+}
+.container-cards{
+    margin-right:50px;
+    margin-left:50px;
 }
