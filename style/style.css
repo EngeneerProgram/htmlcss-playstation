@@ -1,10 +1,9 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+img{
+    max-width: 280px;
 }
 :root{
     --btnjumbo:rgba(205, 61, 15, 1);
+    --btn-nav:rgba(54, 54, 54, 1);
 }
 
 .sony > a > h2{
@@ -31,4 +30,37 @@
     vertical-align: middle;
     text-align: center;
     background-color: var(--btnjumbo);
+}
+.btn-nav{
+    
+    
+    background-color: var(--btn-nav);
+    
+} 
+
+.btn-nav > a{
+    color:white;
+    padding:10px;
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    color:rgba(18, 18, 18, 1);
+}
+
+.photo_game{
+    border-radius: 10%;
+    cursor:pointer;
+    
+}
+
+.photo_game:active{
+    border: thick double rgba(14, 122, 208, 1);
+    
+}
+
+.photo_game:hover{
+transform: translateY(-20px);
+transition: 2s;
 }
