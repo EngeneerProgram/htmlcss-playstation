@@ -24,7 +24,16 @@
     
 }
 
+.take-two-button{
+    background-color: var(--btnjumbo);
+    border-radius: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
 
+.card-container{
+    margin-top:50px;
+}
 
 .jumbo_button{
     border-radius: 50px;
@@ -56,6 +65,11 @@ a{
     transition: 1s;
     
 }
+
+.photo_games{
+    border-radius: 10%;
+    cursor:pointer;
+}
 .active{
     border:4px solid rgba(14, 122, 208, 1);
     padding:2px;
@@ -70,10 +84,8 @@ transform: translatey(-33px);
     margin-left:50px;
 }
 
-.container{
-    margin-top:100px;
-    
-}
+
+
 
 .play{
     margin:-2px;
@@ -89,10 +101,10 @@ transform: translatey(-33px);
 
 .button_play{
     border-radius: 50px;
-    left:280px;
-    text-align: center;
+    
+    
     background-color: rgba(45, 100, 230, 1);
-    position:Relative;
+    
     
 }
 a{
@@ -100,3 +112,38 @@ a{
 }
 
 
+.thumb-2{
+    height: 950px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    
+}
+
+
+.it-takes-p{
+    color:white;
+    line-height: 30px;
+}
+
+
+.it-takes-h1{
+    color:white;
+    line-height: 50px;
+}
+
+.info-takes{
+    background-color: rgba(31, 31, 31, 1);
+    
+
+}
+
+.bianco{
+    color:white;
+}
+
+.tm{
+    font-size: 8px;
+    position:relative;
+    bottom:7px;
+    right:5px;
+}
