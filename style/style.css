@@ -167,15 +167,45 @@ a{
 
 .plus-banner{
     background-color: rgba(190, 188, 187, 1);
+    height: 450px;
     
 }
 
 .plus-img{
-    width: 330px;
-    height: 70px;
+    width: 385px;
+    height: 81px;
 }
 
 .button_play-plus{
     background-color:rgba(217, 218, 220, 1);
     color:rgba(45, 100, 230, 1);
+}
+
+@media screen and (max-width:768px){
+    .nascondi{
+        display:none;
+    }
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.small-texts{
+    color:white;
+    font-size: 13px;
+}
+.ps_now{
+    background-color: rgba(22, 28, 59, 1);
+    height: 500px;
+    margin-top:70px;
+}
+
+.button_play-now{
+    background-color: rgba(245, 245, 245, 1);
+    color:black;
+}
+
+.social_media > img{
+    margin:10px;
 }
