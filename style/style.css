@@ -5,7 +5,11 @@
     --btnjumbo:rgba(205, 61, 15, 1);
     --btn-nav:rgba(54, 54, 54, 1);
 }
-
+li{
+    list-style: none;
+    color:white;
+    line-height: 30px;
+}
 .sony > a > h2{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1.5px;
@@ -84,6 +88,10 @@ transform: translatey(-33px);
     margin-left:50px;
 }
 
+
+.footer_right{
+    padding:25px;
+}
 
 
 
@@ -209,3 +217,19 @@ a{
 .social_media > img{
     margin:10px;
 }
+
+footer{
+    height: 1000px;
+    background-color: rgba(0, 67, 156, 1);
+    margin-top:130px;
+}
+
+.filter_white{
+   filter: invert(100%) sepia(6%) saturate(277%) hue-rotate(602deg) brightness(340%) contrast(99%);
+}
+
+img{
+    display:inline-block;
+}
+
+.
