@@ -19,10 +19,14 @@ li{
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
     height: 620px;
-    background-position: top;
-    
+    background-position: center;
     
 }
+
+img{
+    cursor:pointer;
+}
+
 .dimension{
     width: 320px;
     
@@ -219,7 +223,7 @@ a{
 }
 
 footer{
-    height: 1000px;
+    
     background-color: rgba(0, 67, 156, 1);
     margin-top:130px;
 }
@@ -232,4 +236,22 @@ img{
     display:inline-block;
 }
 
-.
+.img_text1{
+    margin-top:250px;
+}
+
+.center_text{
+    margin-top: 8px;
+    margin-left:15px;
+}
+
+.nero{
+    color:black;
+}
+
+.stack:before{
+    content: "";
+    width: 15px;
+    height: 4px;
+    background-color: red;
+}
