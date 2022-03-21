@@ -55,10 +55,14 @@ img{
     background-color: var(--btn-nav);
     
 } 
-
+.btn-nav{
+    max-width: 100px;
+    text-align: center;
+}
 .btn-nav > a{
     color:white;
     padding:10px;
+    
 }
 a{
     text-decoration: none;
@@ -254,4 +258,13 @@ img{
     width: 15px;
     height: 4px;
     background-color: red;
+}
+
+.dropdown-menu{
+    transition:1s;
+}
+
+
+.ps_color{
+    color:rgba(20, 125, 210, 1);
 }
